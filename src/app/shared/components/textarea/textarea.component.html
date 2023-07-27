@@ -1,0 +1,20 @@
+<label *ngIf="label" class="label">{{ label }}</label>
+
+<textarea
+  class="input"
+  rows="6"
+  [placeholder]="placeholder"
+  [value]="value"
+  [disabled]="disabled"
+  (input)="onChangeSafe($event)"
+  (blur)="onTouched()"
+  [ngClass]="{ error: formControl.dirty && formControl.errors }"
+></textarea>
+
+<div class="error-wrapper">
+  <ng-container *ngIf="formControl.dirty && formControl.errors">
+    <span class="error-message" *ngIf="formControl.errors['required']">
+      <ng-content class="error-message" select="[error=required]"></ng-content>
+    </span>
+  </ng-container>
+</div>

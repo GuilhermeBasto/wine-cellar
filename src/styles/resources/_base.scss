@@ -1,0 +1,56 @@
+@import "variables";
+
+/*
+--------------------------------------------------------------------------------
+HTML elements look n feel
+--------------------------------------------------------------------------------
+*/
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: $font-family-base;
+}
+
+h1 {
+  font-family: $space-mono;
+  font-size: $font-size-huge;
+  line-height: $font-line-height-xbig;
+  letter-spacing: $letter-spacing-base;
+  margin: 0;
+}
+
+h2 {
+  font-family: $font-family-base;
+  font-size: $font-size-biggest;
+  line-height: $font-line-height-big;
+  letter-spacing: $letter-spacing-base;
+  margin: 0;
+}
+
+h3 {
+  font-family: $font-family-base;
+  font-size: $font-size-xbig;
+  line-height: $font-line-height-big;
+  letter-spacing: $letter-spacing-base;
+  margin: 0;
+}
+
+h4 {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $font-line-height-normal;
+  letter-spacing: $letter-spacing-base;
+  margin: 0;
+}
+
+p {
+  font-family: $font-family-base;
+  font-size: $font-size-xsmall;
+  line-height: $font-line-height-base;
+  letter-spacing: $letter-spacing-base;
+  font-weight: $font-weight-medium;
+  margin: 0;
+}

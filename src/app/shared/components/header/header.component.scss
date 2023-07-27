@@ -1,0 +1,24 @@
+@import "palette";
+@import "variables";
+
+.navbar {
+  height: $header-height;
+  background: $white;
+  padding: $header-padding;
+  box-shadow: $header-box-shadow;
+  position: relative;
+
+  .navbar-brand {
+    font-family: $space-mono;
+    font-style: $font-style-italic;
+    font-weight: $font-weight-bold;
+    color: $black;
+    font-size: $font-size-huge;
+  }
+
+  .add {
+    position: absolute;
+    bottom: -20px;
+    right: 50%;
+  }
+}

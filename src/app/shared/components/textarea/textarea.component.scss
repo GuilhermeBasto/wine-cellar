@@ -1,0 +1,49 @@
+@import "palette";
+@import "variables";
+
+.label {
+  font-family: $font-family-base;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-xsmall;
+  line-height: $font-line-height-xsmall;
+  display: flex;
+  align-items: center;
+  letter-spacing: $letter-spacing-base;
+  color: $dark-gray;
+  margin-bottom: 2px;
+}
+
+.input {
+  border: $input-border;
+  box-sizing: border-box;
+  border-radius: $input-border-radius;
+  border: $input-border;
+  padding: $input-padding;
+  width: 100%;
+  &:focus,
+  &.focus {
+    border: $input-border-focus;
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.error {
+  border: $input-border-invalid;
+}
+
+.error-wrapper {
+  height: $font-line-height-base;
+  .error-message {
+    font-family: $font-family-base;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-xsmall;
+    line-height: $font-line-height-base;
+    letter-spacing: $letter-spacing-base;
+    color: $error;
+    margin: 0;
+  }
+}

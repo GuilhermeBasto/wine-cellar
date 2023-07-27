@@ -1,0 +1,9 @@
+<div class="card">
+  <div class="icon" (click)="handleIconClick($event)">
+    <app-star [active]="wine.favorite"></app-star>
+  </div>
+  <div class="card-content" (click)="handleContentClick($event)">
+    <img [src]="wine.imagePath" alt="wine-image" />
+    <h4 class="name">{{ wine.name }}</h4>
+  </div>
+</div>

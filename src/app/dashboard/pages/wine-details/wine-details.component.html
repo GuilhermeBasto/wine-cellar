@@ -1,0 +1,55 @@
+<ng-container *ngIf="wine$ | async as wine; else loadingOrError">
+  <app-content-header [title]="wine.name"></app-content-header>
+  <div class="container">
+    <img [src]="wine.imagePath" alt="wine-image" />
+
+    <div class="details">
+      <app-star [active]="wine.favorite"></app-star>
+
+      <app-label-value label="Region" [value]="wine.location"></app-label-value>
+      <app-label-value label="Year" [value]="wine.year"></app-label-value>
+      <app-label-value
+        label="Quantity"
+        [value]="wine.numberOfBottles"
+      ></app-label-value>
+
+      <div class="description" (click)="handleShowDescription()">
+        <app-info></app-info>
+        <h4 *ngIf="showDescription">
+          {{ wine.description }}
+        </h4>
+      </div>
+
+      <div class="buttons">
+        <app-button type="danger" (clicked)="handleDeleteModal()">
+          delete
+        </app-button>
+        <app-button type="primary" (clicked)="handleEdit(wine.id)"
+          >Edit</app-button
+        >
+      </div>
+    </div>
+  </div>
+  <app-modal>
+    <div class="delete-wrapper">
+      <h3>Delete Wine</h3>
+      <p class="description">Are you sure you want delete {{ wine.name }}?</p>
+
+      <div class="actions">
+        <app-button type="secondary" (clicked)="handleClose()">No</app-button>
+        <app-button (clicked)="handleDelete(wine.id)">Yes</app-button>
+      </div>
+    </div>
+  </app-modal>
+</ng-container>
+
+<ng-template #loadingOrError>
+  <ng-container *ngIf="error$ | async as error; else loading">
+    <h4>{{ error }}</h4>
+  </ng-container>
+  <ng-template #loading>
+    <div class="d-flex w-100">
+      <app-spinner></app-spinner>
+    </div>
+  </ng-template>
+</ng-template>

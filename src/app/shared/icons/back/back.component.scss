@@ -1,0 +1,8 @@
+@import "variables";
+@import "palette";
+
+svg {
+  cursor: pointer;
+  font-size: $font-size-xbig;
+  fill: $black;
+}

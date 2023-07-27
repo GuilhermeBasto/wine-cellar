@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="content">
+    <app-content-header [title]="title"></app-content-header>
+    <form [formGroup]="wineForm">
+      <app-input label="Name" formControlName="name">
+        <span error="required">{{ requiredLabel }}</span>
+      </app-input>
+      <app-input label="Year" formControlName="year">
+        <span error="required">{{ requiredLabel }}</span>
+      </app-input>
+      <app-input label="Location" formControlName="location">
+        <span error="required">{{ requiredLabel }}</span>
+      </app-input>
+      <app-input
+        type="number"
+        label="Number of bottles"
+        formControlName="numberOfBottles"
+      >
+        <span error="required">{{ requiredLabel }}</span>
+      </app-input>
+      <app-textarea label="Description" formControlName="description">
+        <span error="required">{{ requiredLabel }}</span>
+      </app-textarea>
+    </form>
+
+    <div class="buttons">
+      <app-button type="secondary" (clicked)="handleBack()">Cancel</app-button>
+      <app-button [disabled]="wineForm.invalid" (clicked)="handleAdd()"
+        >Save</app-button
+      >
+    </div>
+  </div>
+</div>

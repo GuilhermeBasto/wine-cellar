@@ -1,0 +1,41 @@
+@import "palette";
+@import "variables";
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  width: 180px;
+  height: 220px;
+  background: $white;
+  box-shadow: $card-box-shadow;
+  border-radius: 4px;
+  transition: transform 0.8s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  .icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: $aboveBackground;
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    img {
+      width: 160px;
+      height: 180px;
+      flex-grow: 1;
+    }
+    .name {
+      text-align: center;
+    }
+  }
+}

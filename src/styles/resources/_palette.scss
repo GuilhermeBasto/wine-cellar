@@ -1,0 +1,44 @@
+/*
+--------------------------------------------------------------------------------
+COLORS
+--------------------------------------------------------------------------------
+*/
+
+// main colors
+$white: #ffffff;
+$black: #161616;
+$dark-gray: #333333;
+$gray: #969696;
+$light-gray-1: #f6f6f6;
+$light-gray-2: #efefef;
+$gray-stroke: #cecece;
+$gold: #ecb900;
+$light-gold: #ffd642;
+$orange: #f2994a;
+$green: #00ff00;
+$light-green: #6fcf97;
+$violet: #7c60ff;
+$blue: #56ccf2;
+
+// messaging colors
+$success: #219653;
+$error: #eb5757;
+$warning: #f2c94c;
+$information: #2f80ed;
+
+// button
+$button-box-shadow-primary: 0px 0px 15px rgba($gold, 0.8);
+$button-box-shadow-secondary: 0px 0px 15px rgba($dark-gray, 0.6);
+$button-box-shadow-danger: 0px 0px 15px rgba($error, 0.6);
+
+// input
+$input-border: 1px solid $gray;
+$input-border-focus: 1px solid $gold;
+$input-border-invalid: 1px solid $error;
+
+// card
+$card-box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.2);
+
+// header
+$header-box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.2);
+$header-dropdown-box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.2);
