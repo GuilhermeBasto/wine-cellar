@@ -1,0 +1,92 @@
+@import "palette";
+@import "variables";
+
+.button {
+  min-height: 40px;
+  min-width: 60px;
+  width: 100%;
+  font-family: $font-family-base;
+  border-radius: $border-radius;
+  border: none;
+  font-weight: $font-weight-semibold;
+  font-size: $font-size-small;
+  line-height: $font-line-height-normal;
+  text-align: center;
+  justify-content: center;
+  padding: $button-padding;
+  z-index: $aboveBackground;
+  &:focus,
+  &.focus {
+    box-shadow: none;
+  }
+  &.button-primary {
+    &:not(:disabled) {
+      color: $dark-gray;
+      background-color: $gold;
+      &:hover {
+        background-color: $gold;
+        box-shadow: $button-box-shadow-primary;
+      }
+    }
+    &:disabled {
+      box-shadow: none;
+      background-color: $light-gray-2;
+      color: $gray;
+      cursor: not-allowed;
+    }
+  }
+
+  &.button-secondary {
+    &:not(:disabled) {
+      color: $white;
+      background-color: $gray;
+      &:hover {
+        background-color: $black;
+        box-shadow: $button-box-shadow-secondary;
+      }
+    }
+    &:disabled {
+      box-shadow: none;
+      color: $gray;
+      background-color: $light-gray-2;
+      cursor: not-allowed;
+    }
+  }
+
+  &.button-danger {
+    &:not(:disabled) {
+      color: $white;
+      background-color: $error;
+      &:hover {
+        background-color: $error;
+        box-shadow: $button-box-shadow-danger;
+      }
+    }
+    &:disabled {
+      box-shadow: none;
+      color: $gray;
+      background-color: $light-gray-2;
+      cursor: not-allowed;
+    }
+  }
+
+  &.button-round {
+    &:not(:disabled) {
+      color: $white;
+      min-height: 60px;
+      min-width: 60px;
+      background-color: $gold;
+      border-radius: 50%;
+      &:hover {
+        background-color: $gold;
+        box-shadow: $button-box-shadow-primary;
+      }
+    }
+    &:disabled {
+      box-shadow: none;
+      background-color: $light-gray-2;
+      color: $gray;
+      cursor: not-allowed;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<ng-container *ngIf="wines$ | async as wines; else loadingOrError">
+  <div class="wines">
+    <form class="search" [formGroup]="searchForm">
+      <app-input placeholder="Search..." formControlName="query"></app-input>
+    </form>
+    <ng-container *ngFor="let wine of wines">
+      <app-card
+        (iconClicked)="handleUpdateFavorite($event)"
+        (cardClicked)="handleDetails($event)"
+        [wine]="wine"
+      >
+      </app-card>
+    </ng-container>
+    <h4 *ngIf="!wines.length">No wine available. Please try again.</h4>
+
+    <ng-container *ngIf="paginator$ | async as paginator">
+      <div class="load-more" *ngIf="paginator.pageSize <= wines.length">
+        <app-button (clicked)="handleLoadMore()"> Load more </app-button>
+      </div>
+    </ng-container>
+  </div>
+</ng-container>
+
+<ng-template #loadingOrError>
+  <ng-container *ngIf="error$ | async as error; else loading">
+    <h4>{{ error }}</h4>
+  </ng-container>
+  <ng-template #loading>
+    <div class="d-flex w-100">
+      <app-spinner></app-spinner>
+    </div>
+  </ng-template>
+</ng-template>

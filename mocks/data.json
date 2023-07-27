@@ -1,0 +1,114 @@
+{
+  "wine": [
+    {
+      "id": "1",
+      "name": "Cabriz",
+      "year": 2018,
+      "description": "Cabriz, marca líder do grupo, apresenta um portefólio diversificado e inspirador, assente na qualidade da região do Dão. Os seus vinhos são produzidos no centro de vinificação de Carregal do Sal, a sede do grupo Global Wines. Dos brancos aos tintos, passando pelos espumantes e aguardentes, os vinhos Cabriz são a companhia perfeita para qualquer ocasião.",
+      "location": "Dão",
+      "numberOfBottles": 120,
+      "imagePath": "assets/cabriz.jpeg",
+      "favorite": true
+    },
+    {
+      "id": "4",
+      "name": "Montes ermos 4",
+      "year": 2020,
+      "description": "Com 200 anos de tradição na produção de vinho, a Herdade do Monte Branco, situada em pleno Alentejo, renasce agora para uma nova fase. Os seus vinhos são um reflexo de um terroir em que a influência marítima se mistura com a força continental. As variações de temperatura e humidade entre o dia e a noite conduzem as videiras e determinam a maturação das suas uvas.",
+      "location": "Douro",
+      "numberOfBottles": 150,
+      "imagePath": "assets/montes-ermos.jpeg",
+      "favorite": true
+    },
+    {
+      "id": "5",
+      "name": "Cabriz",
+      "year": "2018",
+      "location": "Dão",
+      "numberOfBottles": "120",
+      "imagePath": "assets/cabriz.jpeg",
+      "description": "Cabriz, marca líder do grupo, apresenta um portefólio diversificado e inspirador, assente na qualidade da região do Dão. Os seus vinhos são produzidos no centro de vinificação de Carregal do Sal, a sede do grupo Global Wines. Dos brancos aos tintos, passando pelos espumantes e aguardentes, os vinhos Cabriz são a companhia perfeita para qualquer ocasião.",
+      "favorite": false
+    },
+    {
+      "id": "6",
+      "name": "Montes ermos",
+      "year": "2020",
+      "location": "Douro",
+      "numberOfBottles": "150",
+      "imagePath": "assets/montes-ermos.jpeg",
+      "description": "Com 200 anos de tradição na produção de vinho, a Herdade do Monte Branco, situada em pleno Alentejo, renasce agora para uma nova fase. Os seus vinhos são um reflexo de um terroir em que a influência marítima se mistura com a força continental. As variações de temperatura e humidade entre o dia e a noite conduzem as videiras e determinam a maturação das suas uvas.",
+      "favorite": false
+    },
+    {
+      "id": "7",
+      "name": "Montes ermos 3",
+      "year": "2020",
+      "location": "Douro",
+      "numberOfBottles": "150",
+      "imagePath": "assets/montes-ermos.jpeg",
+      "description": "Cabriz, marca líder do grupo, apresenta um portefólio diversificado e inspirador, assente na qualidade da região do Dão. Os seus vinhos são produzidos no centro de vinificação de Carregal do Sal, a sede do grupo Global Wines. Dos brancos aos tintos, passando pelos espumantes e aguardentes, os vinhos Cabriz são a companhia perfeita para qualquer ocasião.",
+      "favorite": false
+    },
+    {
+      "id": "8",
+      "name": "Montes ermos 4",
+      "year": "2020",
+      "location": "Douro",
+      "numberOfBottles": "150",
+      "imagePath": "assets/montes-ermos.jpeg",
+      "description": "Com 200 anos de tradição na produção de vinho, a Herdade do Monte Branco, situada em pleno Alentejo, renasce agora para uma nova fase. Os seus vinhos são um reflexo de um terroir em que a influência marítima se mistura com a força continental. As variações de temperatura e humidade entre o dia e a noite conduzem as videiras e determinam a maturação das suas uvas.",
+      "favorite": false
+    },
+    {
+      "name": "Papa figos",
+      "year": "2021",
+      "description": "Bom vinho",
+      "location": "Douro",
+      "numberOfBottles": 22123,
+      "favorite": false,
+      "id": "fMcjwP-",
+      "imagePath": "assets/default-wine.jpeg"
+    },
+    {
+      "name": "Cabriz1",
+      "year": 2018,
+      "description": "Cabriz, marca líder do grupo, apresenta um portefólio diversificado e inspirador, assente na qualidade da região do Dão. Os seus vinhos são produzidos no centro de vinificação de Carregal do Sal, a sede do grupo Global Wines. Dos brancos aos tintos, passando pelos espumantes e aguardentes, os vinhos Cabriz são a companhia perfeita para qualquer ocasião.",
+      "location": "Dão",
+      "numberOfBottles": 120,
+      "favorite": false,
+      "imagePath": "assets/default-wine.jpeg",
+      "id": "nDJ-Gt6"
+    },
+    {
+      "id": "l2MP2lo",
+      "name": "Cabriz32",
+      "year": 2018,
+      "description": "Cabriz, marca líder do grupo, apresenta um portefólio diversificado e inspirador, assente na qualidade da região do Dão. Os seus vinhos são produzidos no centro de vinificação de Carregal do Sal, a sede do grupo Global Wines. Dos brancos aos tintos, passando pelos espumantes e aguardentes, os vinhos Cabriz são a companhia perfeita para qualquer ocasião.",
+      "location": "Dão",
+      "numberOfBottles": 32233,
+      "imagePath": "assets/default-wine.jpeg",
+      "favorite": false
+    },
+    {
+      "id": "GIgaNa0",
+      "name": "Home Wine",
+      "year": 1997,
+      "description": "Special bottle from my first birthdate",
+      "location": "Cabeceiras de Basto",
+      "numberOfBottles": 222,
+      "imagePath": "assets/default-wine.jpeg",
+      "favorite": false
+    },
+    {
+      "id": "fxXjL4s",
+      "name": "Uncles's white wine",
+      "year": 2211,
+      "description": "Gift from my uncle",
+      "location": "Abadim",
+      "numberOfBottles": 21,
+      "imagePath": "assets/default-wine.jpeg",
+      "favorite": false
+    }
+  ]
+}

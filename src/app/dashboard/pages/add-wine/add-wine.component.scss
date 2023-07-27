@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 24px;
+  form {
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+  }
+}

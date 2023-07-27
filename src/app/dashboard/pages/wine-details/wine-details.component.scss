@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 36px;
+
+  img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .details {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    .description {
+      margin-top: 12px;
+      flex-grow: 1;
+    }
+  }
+  .buttons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.delete-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .description {
+    margin-top: 16px;
+    flex-grow: 1;
+  }
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+}

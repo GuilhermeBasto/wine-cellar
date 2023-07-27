@@ -1,0 +1,52 @@
+//----- TYPOGRAPHY -----//
+
+$ibm-plex-sans: "IBM Plex Sans";
+$font-family-base: $ibm-plex-sans;
+$space-mono: "Space Mono";
+
+$font-size-xsmall: 12px;
+$font-size-small: 14px;
+$font-size-base: 16px;
+$font-size-medium: 18px;
+$font-size-big: 20px;
+$font-size-xbig: 26px;
+$font-size-biggest: 42px;
+$font-size-huge: 48px;
+$font-size-xhuge: 68px;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$font-line-height-xsmall: 12px;
+$font-line-height-base: 16px;
+$font-line-height-normal: 24px;
+$font-line-height-big: 48px;
+$font-line-height-xbig: 72px;
+
+$font-style-normal: normal;
+$font-style-italic: italic;
+
+$letter-spacing-base: 0.32px;
+
+//----- Z-INDEX -----//
+
+$aboveBackground: 1;
+
+//----- BUTTON -----//
+
+$border-radius: 4px;
+$button-padding: 8px 12px;
+
+//----- INPUT -----//
+
+$input-border-radius: 4px;
+$input-padding: 8px 16px;
+$input-margin: 8px 0;
+
+//----- HEADER -----//
+
+$header-padding: 14px 120px 18px 64px;
+$header-height: 60px;

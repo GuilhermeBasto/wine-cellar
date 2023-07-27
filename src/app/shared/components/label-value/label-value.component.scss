@@ -1,0 +1,9 @@
+@import "variables";
+.label {
+  font-weight: $font-weight-bold;
+}
+
+.value {
+  font-weight: $font-weight-normal;
+  font-size: $font-size-medium;
+}

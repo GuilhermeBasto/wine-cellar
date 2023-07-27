@@ -1,0 +1,44 @@
+@import "variables";
+@import "palette";
+
+/*
+--------------------------------------------------------------------------------
+Text and alignments
+--------------------------------------------------------------------------------
+*/
+
+.pointer {
+  cursor: pointer;
+}
+
+.semi-bold {
+  font-weight: $font-weight-semibold;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.g1 {
+  gap: 8px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.gray {
+  color: $gray;
+}
+
+.gold {
+  color: $gold;
+}

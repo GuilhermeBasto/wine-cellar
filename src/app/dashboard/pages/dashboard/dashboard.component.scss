@@ -1,0 +1,18 @@
+.search {
+  width: 100%;
+  min-width: 200px;
+}
+
+.wines {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
