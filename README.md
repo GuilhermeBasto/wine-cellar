@@ -85,7 +85,7 @@ movies.fe
   │ │  └──models
   │ │  │
   │ │  └──services
-  │ └──index.tsx
+  │ └──app.module
   ├──package.json
   └──...
 ```
