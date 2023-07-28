@@ -58,7 +58,7 @@ ng s
 The directory structure is the following:
 
 ```sh
-movies.fe
+wine-cellar
   ├──app
   │ ├──dashboard-module
   │ │  └──pages
@@ -92,7 +92,7 @@ movies.fe
 
 ## Tools
 
-- [Angular]: v14.2.4
+- Angular: v14.2.4
 - Node.js > v16.13.2
 
 ## Main Features
